@@ -1,0 +1,60 @@
+export const CATEGORIES = [
+  "Clothing & Accessories",
+  "Mobiles & Electronics",
+  "Books & Media",
+  "Home & Kitchen",
+  "Furniture",
+  "Toys & Games",
+  "Sports & Fitness",
+  "Musical Instruments",
+  "Vehicles",
+  "Collectibles",
+  "Tools & Equipment",
+  "Baby & Kids",
+  "Art & Crafts",
+  "Beauty & Personal Care",
+  "Other",
+] as const;
+
+export const CATEGORY_EMOJI: Record<string, string> = {
+  "Clothing & Accessories": "👕",
+  "Mobiles & Electronics": "📱",
+  "Books & Media": "📚",
+  "Home & Kitchen": "🍳",
+  Furniture: "🛋️",
+  "Toys & Games": "🧸",
+  "Sports & Fitness": "🏸",
+  "Musical Instruments": "🎸",
+  Vehicles: "🛵",
+  Collectibles: "🏺",
+  "Tools & Equipment": "🛠️",
+  "Baby & Kids": "🍼",
+  "Art & Crafts": "🎨",
+  "Beauty & Personal Care": "💄",
+  Other: "📦",
+};
+
+export const CONDITIONS = [
+  { value: "NEW", label: "Brand New" },
+  { value: "LIKE_NEW", label: "Like New" },
+  { value: "GOOD", label: "Good" },
+  { value: "FAIR", label: "Fair" },
+] as const;
+
+export const CITIES = [
+  "Mumbai",
+  "Delhi",
+  "Bengaluru",
+  "Hyderabad",
+  "Chennai",
+  "Kolkata",
+  "Pune",
+  "Ahmedabad",
+  "Jaipur",
+  "Lucknow",
+  "Chandigarh",
+  "Kochi",
+  "Indore",
+  "Surat",
+  "Other",
+] as const;
